@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Paprika&display=swap');
 
 :root{
     --button-color: #1BBF00;
@@ -13,6 +13,11 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
+}
+p{
+    font-family: 'Paprika', cursive;
+    font-size: 18px;
+    font-weight: 400;
 }
 .number-color{
     color: var(--button-color) !important;
@@ -118,4 +123,91 @@
     display: flex;
     margin: 0px auto;
     justify-content: center;  
+}
+
+.five-sec-pic{
+    width: 100%;
+    background-color:#FDFDFD;;
+    padding-top:100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+.elementhree{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.elementhree img{
+    height: 250px;
+    width: 250px;
+}
+
+.real-impact{
+   /* height: /00px; */
+    background-color:#FDFDFD;;
+    position: relative;
+    overflow: hidden;
+}
+.img-1{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 273.09px;
+    width: 227.09px;
+
+}
+.img-2{
+    position: absolute;
+    right: 80px;
+    top: 0px;
+    height: 140.95px;
+    width: 161.51px;
+
+}
+.img-3{
+    position: absolute;
+    top: 139px;
+    left: 165px;
+    height: 264px;
+    width: 310px;
+
+}
+.img-4{
+    position: absolute;
+    right: 0px;
+    top: 27px;
+    height: 105px;
+    width: 130px;
+
+}
+.height{
+   height: 400px;
+}
+
+.hover-effect h2:hover{
+    background-color: #6B62C5 !important;
+    color: white !important;
+}
+.hover-effect img:hover{
+    background-color: #6B62C5 !important;
+}
+.hover-effect:hover{
+    background-color: #6B62C5;
+    color: white;
+}
+.position_relative{
+    position: relative;
+    
+ 
+}
+.position_absolute{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    z-index: 999 !important;
+    transform: translate(-50%,-50%);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    /* margin-top: -50px;*/
 }
